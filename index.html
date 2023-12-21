@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>To-do List App</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h1>To-do List</h1>
+        <img src="Images\checked icon.png" style="width:50px" alt="Check icon">
+        </div>
+        
+        <form id="new-task">
+            <input type="text" class="new-task-input" id="new-task-input" style="text-align: center; margin-right: 20px; margin-top: 10px;" placeholder="What's next on your to-do list?">
+
+            <input type="submit" class="add-new-task" value="Add Task">
+        </form>
+    </header>
+    <section class="task-list">
+
+        <h2>Task List</h2>
+        <div id="tasks">
+            <!-- First Task -->
+            <div class="taskOne">
+                <div class="content">
+                    <input type="text" style="text-align: center;" class="new-task-input"  value="A New Task" readonly>
+                </div>
+
+                <div class="actions">
+                    <button class="edit add-new-task" id="edit">Edit</button>
+                    <button class="delete add-new-task" id="delete">Delete</button>
+                </div>
+            </div>
+
+            <!-- Second Task -->
+        </div>
+    </section>
+
+    
+</body>
+ <script src="script.js"></script>
+</body>
+</html>
